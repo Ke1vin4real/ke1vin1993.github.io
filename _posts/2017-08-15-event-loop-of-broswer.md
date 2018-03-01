@@ -55,7 +55,7 @@ background: '/img/bg4.jpg'
 
 来看一个例子：
 
-```javascript
+{% highlight javascript %}
 console.log('script start');
 
 setTimeout(function() {
@@ -69,7 +69,7 @@ Promise.resolve().then(function() {
 });
 
 console.log('script end');
-```
+{% endhighlight %}
 （代码来自[Tasks, microtasks, queues and schedules][2]，**推荐观看原文的代码可视化执行步骤**）
 
 如果你测试的浏览器支持的Promise不支持Promise/A+标准，或是你使用了其他Promise polfill，运行结果可能有差异。
