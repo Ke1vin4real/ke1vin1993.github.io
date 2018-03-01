@@ -55,7 +55,7 @@ background: '/img/bg4.jpg'
 
 来看一个例子：
 
-```(javascript)
+```javascript
 console.log('script start');
 
 setTimeout(function() {
