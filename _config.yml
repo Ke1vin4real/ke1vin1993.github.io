@@ -24,6 +24,8 @@ github_username:  ke1vin666
 
 # Build settings
 markdown: kramdown
+kramdown:
+  input: GFM
 theme: jekyll-theme-clean-blog
 remote_theme: BlackrockDigital/startbootstrap-clean-blog-jekyll
 plugins:
